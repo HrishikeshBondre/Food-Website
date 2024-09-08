@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Sign.jpg);
+    background-size: cover;
+    margin: 20px;
+}
+
+
+form {
+    max-width: 600px;
+    margin: auto;
+
+    
+}
+
+.suggestion{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    box-sizing: border-box;
+}
+
+
+textarea{
+  width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: red;
+}
+
+button:hover {
+    
+    background-color: #20a05a;
+}
+
+.name{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(50, 160, 211);
+    text-shadow: 2px 2px #033335;
+    margin-bottom: 0px;
+    
+}

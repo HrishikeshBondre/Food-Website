@@ -1,0 +1,109 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-image: url(Proback2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout{
+    height: 1270px;
+    width: 780px;
+    
+}
+
+.info{
+    border-radius: 15px;
+    height: 1270px;
+    width: 780px;
+    
+    
+}
+
+h1{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: rgb(218, 15, 109);
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+   
+}
+
+.classify{
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0%;
+    margin-right: 40px;
+}
+
+.list{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-right: 40px;
+    
+}
+
+.points{
+    margin-left: 0px;
+    text-align: justify;
+}
+
+/* .info:hover{
+   background-color: rgba(187, 255, 240, 0.5); 
+   transition: all;
+   transition-duration: 0.8s;
+   transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+   box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.8);
+
+} */
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e08c2b;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    height: 45px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 285px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+
+}
+
+#btname{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+}
+
+#btname:hover{
+    color: black;
+    transition: all;
+    transition-duration: 0.8s;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: #1668b6;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    border-style: solid;
+
+}

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="javascript" href="server.js">
+  <title>NUTRISAFE</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/dac310e544.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div id="container">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#aboutme">Products</a></li>
+          <li><a href="#stores">Stores</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+
+        <button class="regbtn4" onclick="window.location='report.html'" ><b>Report on product</b></button>
+        <button class="regbtn3" onclick="window.location='form.html'"><b>Login / Register</b></button>
+      </nav>
+
+      <div class="header-text">
+        <h1>
+          <span>NUTRISAFE</span> <br>
+          Products
+        </h1>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------about page ---------------- -->
+  <div id="about">
+
+    <div class="container">
+
+
+      <div class="row">
+        <h1 class="sub-title">About Us</h1>
+
+
+        <div class="about-col-2">
+
+          <p class="info">
+            Nutrition is a critical aspect of maintaining good health and well-being. It refers to the process by which
+            our bodies obtain and utilize the necessary nutrients from the food we consume. A balanced and nutritious
+            diet plays a pivotal role in supporting various bodily functions, including growth, development, energy
+            production, and overall disease prevention.
+
+            The essential nutrients required for optimal health can be broadly categorized into macronutrients and
+            micronutrients. Macronutrients include carbohydrates, proteins, and fats, which are needed in relatively
+            large quantities to provide energy and support bodily functions. Micronutrients, on the other hand,
+            encompass vitamins and minerals, which are essential in smaller amounts for various physiological processes,
+            such as immune function, bone health, and antioxidant defense.
+          </p>
+          <br>
+          <br>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('menu1')">
+              Nutritional Supplements
+            </p>
+            <p class="tab-links active-link" onclick="opentab('menu2')">
+              Food Safety Tools
+            </p>
+            <p class="tab-links active-link" onclick="opentab('menu3')">
+              Healthy Snacks
+            </p>
+            <p class="tab-links active-link" onclick="opentab('menu4')">
+              Wellness Kits
+            </p>
+            <p class="tab-links active-link" onclick="opentab('menu5')">
+              Allergen-Free Products
+            </p>
+
+          </div>
+          <div class="tab-contents active-tab" id="menu1">
+            <ul>
+              <li><span>- Vitamins and Minerals</span><br />
+              <li><span>- Herbal Supplements</span><br />
+              <li><span>- Protein Powders</span><br />
+
+            </ul>
+          </div>
+          <div class="tab-contents active-tab" id="menu2">
+            <ul>
+              <li><span>- Food Thermometers</span><br />
+              <li><span>- Storage Containers (BPA-free, food-grade)</span><br />
+              <li><span>- Allergen-free Cooking Utensils</span><br />
+
+            </ul>
+          </div>
+          <div class="tab-contents active-tab" id="menu3">
+            <ul>
+              <li><span>- Nut and Seed Mixes</span><br />
+              <li><span>- Dried Fruits</span><br />
+              <li><span>- Low-sugar Protein Bars</span><br />
+
+            </ul>
+          </div>
+          <div class="tab-contents active-tab" id="menu4">
+            <ul>
+              <li><span>- Detox Kits</span><br />
+              <li><span>- Immune-Boosting Bundles</span><br />
+              <li><span>- Weight Management Kits</span><br />
+            </ul>
+          </div>
+          <div class="tab-contents active-tab" id="menu5">
+            <ul>
+              <li><span>- Gluten-Free Foods</span><br />
+              <li><span>- Dairy-Free Alternatives</span><br />
+              <li><span>- Nut-Free Snacks</span><br />
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------Product-------------------->
+
+
+  <div id="aboutme">
+    <div class="container">
+      <h1 class="sub-title">Products</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Fruits.jpg" alt="" />
+          <div class="layer">
+            <a  class="ac"  href="Fruits.html" target="_blank">
+            <h3>Fruits</h3>
+            <p>
+              Fruits are nutrient-rich foods that offer a variety of essential vitamins and minerals. They are
+              particularly high in vitamin C, which supports the immune system, and vitamin A, important for vision
+              and skin health.</a>
+            </p>
+          </a>
+            <a class="pro" href="Fruits.html" target="_blank">
+              <img src="Fruits.jpg" alt="" />
+            </a>
+          </div>
+        </a>
+        </div>
+        <div class="work">
+          <img src="Dryfruits.jpg" alt="" />
+          <div class="layer">
+            <a  class="ac"  href="Dryfruits.html" target="_blank">
+            <h3>Dryfruits</h3>
+            <p>
+              Dry fruits, such as almonds, walnuts, raisins, and apricots, offer a range of health advantages. Packed
+              with essential nutrients like vitamins, minerals, and antioxidants, dry fruits contribute to overall
+              well-being.
+            </p>
+          </a>
+            <a class="pro" href="Dryfruits.html" target="_blank">
+              <img src="Dryfruits.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Juice.jpg" alt="" />
+          <div class="layer">
+            <a  class="ac"  href="Juice.html" target="_blank">
+            <h3>Juice</h3>
+            <p>
+              Juices, when consumed in moderation and as part of a balanced diet, offer certain advantages. Fruit and
+              vegetable juices are rich in essential vitamins, minerals, and antioxidants, providing a convenient way
+              to boost nutrient intake.
+            </p>
+          </a>
+            <a class="pro" href="Juice.html" target="_blank">
+              <img src="Juice.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Milk.jpg" alt="" />
+          <div class="layer">
+            <a  class="ac"  href="Milk.html" target="_blank">
+            <h3>Milk</h3>
+            <p>
+
+              Milk is a rich source of essential nutrients vital for overall health. It provides high-quality protein,
+              carbohydrates primarily in the form of lactose, and varying amounts of fats depending on its type.
+            </p>
+          </a>
+            <a class="pro" href="Milk.html" target="_blank">
+              <img src="Milk.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Fish.jpg" alt="" />
+          <div class="layer">
+            <a  class="ac"  href="Fish.html" target="_blank">
+            <h3>Fish</h3>
+            <p>
+              Fish is a nutrient-rich food with a variety of health benefits. It is a high-quality source of protein,
+              containing essential amino acids necessary for muscle repair and growth.y.
+            </p>
+          </a>
+            <a class="pro" href="Fish.html" target="_blank">
+              <img src="Fish.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Egg.jpg" alt="" />
+          <div class="layer">
+            <a  class="ac"  href="Egg.html" target="_blank">
+            <h3>Egg</h3>
+            <p>
+              Eggs are a highly nutritious food for overall health. They
+              are an excellent source of high-quality protein, containing all nine essential amino acids required for
+              muscle repair and growth.
+            </p>
+          </a>
+            <a class="pro" href="Egg.html" target="_blank">
+              <img src="Egg.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="#stores" class="btn">See more ...</a>
+    </div>
+  </div>
+  <hr><br><br><br><br>
+
+  <!-- Stores -->
+  <div id="stores">
+    <div class="content">
+      <h1 class="sname">Stores</h1>
+      <div class="slist">
+        <div class="row1">
+          <a href="https://www.amazon.in/fmc/storefront?almBrandId=ctnow" target="_blank">
+          <div class="store1">
+            <h2 class="web1" >Go to Website</h2>
+          </div>
+          </a>
+          
+          <a href="https://in.iherb.com/" target="_blank">
+          <div class="store2">
+            <h2 class="web2">Go to Website</h2>
+          </div>
+          </a>
+          
+          <a href="https://www.gnc.com/" target="_blank">
+          <div class="store3">
+            <h2 class="web3">Go to Website</h2>
+          </div>
+          </a>
+        </div>
+
+        <div class="row2">
+          <a href="https://thrivemarket.com/" target="_blank">
+          <div class="store4">
+            <h2 class="web4">Go to Website</h2>
+          </div>
+        </a>
+        <a href="https://www.vitacost.com/international" target="_blank">
+          <div class="store5">
+            <h2 class="web5">Go to Website</h2>
+          </div>
+        </a>
+        <a href="https://www.amazon.com/alm/storefront/ref=grocery_wholefoods?almBrandId=VUZHIFdob2xlIEZvb2Rz" target="_blank">
+          <div class="store6">
+            <h2 class="web6">Go to Website</h2>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <hr><br><br><br><br>
+
+  <!------------ contact ------------- -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Us</h1>
+
+          <p><i class="fa-solid fa-paper-plane"></i>hrishibondre45@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9359548015</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61557395861212" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/HrishiBondre" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/_hrishi_bondre_45/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/hrishikesh-bondre-8134902ab/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="Submit" class="btn btn2">Submit</button>
+
+            <button type="Reset" id="reset" class="btn btn2">Reset</button>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!------------ Footer ------------- -->
+  <footer>
+    <div id="foot">
+      <p>Copyright © 2024 Nutrisafe.  All Rights Reserved.</p>
+      <p>Thank You For Visiting...!</p>
+      <p class="credit">Created by Hrishikesh Bondre</p>
+    </div>
+  </footer>
+
+  <!--------------------- javascript----------------- -->
+
+  <script>
+    //for removing data
+
+    // Get all elements with the class "tab-links" and "tab-contents"
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      //Remove the "active-link" class from all elements with the class "tab-links"
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      // Add the "active-link" class to the clicked tab link
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+    // Define a function to open the side menu
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    // Define a function to close the side menu
+    function closemenu() {
+      sidemeu.style.right = "-200px";
+    }
+  </script>
+
+  <!-- ----------------------------------- -->
+
+  <script>
+
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzvkXQzpOOr-zPRuVHZLikBjnF4fEtBwQSw0Ji0FhX9Zhs6kfReV7x_9ng-xG_PRnNE/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => {
+          msg.innerHTML = "Messgae sent successfully";
+          setTimeout(function () {
+            msg.innerHTML = "";
+          }, 5000);
+          form.reset;
+        })
+        .catch((error) => console.error("Error!", error.message));
+    });
+  </script>
+</body>
+
+</html>
